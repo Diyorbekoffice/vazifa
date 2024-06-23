@@ -138,7 +138,13 @@
     font-weight: 400;
     line-height: 15.4px;
     text-align: center;
+    transition: all 0.7s linear;
+    cursor: pointer;
      
+}
+.section_2 button:hover{
+    background-color: #0000DE;
+    color: #fff;
 }
 
 /* section_3 */
@@ -158,6 +164,12 @@
     text-decoration: none;
     color: #6E9BB8;
     padding: 11px;
+    transition: all 0.7s linear;
+    cursor: pointer;
+}
+.section_3 a:hover{
+    color: #000000;
+    border-bottom: 3px solid #0000DE;
 }
 .section_3 .activ{
     color: #000000;
@@ -188,4 +200,137 @@
     align-items: center;     
 }
 
+/* section_4 */
 
+.section_4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF1F6;
+    margin: 104px auto 0;
+    gap: 10px;
+    width: 1368px;
+    height: 354px;
+    border-radius: 64px 6px 64px 6px;
+}
+.section_4 span{
+    color: #0000DE;
+    font-weight: 700;
+}
+.section_4 h4{
+    width: 747px;
+    margin-top: 17px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;     
+}
+.section_4 .btn{
+    display: flex;
+    margin-top: 33px;
+    gap: 16px;
+}
+.section_4 .btn1{
+    width: 250px;
+    height: 68px;
+    border-radius: 28px 0px 28px 0px;
+    border: none;
+    background-color: #0000DE;
+    color: #fff;
+    transition: all 0.7s linear;
+    cursor: pointer;
+}
+.section_4 .btn1:hover{
+    background-color: #fff;
+    color: #0000DE;
+}
+.section_4 .btn2{
+    width: 153px;
+    height: 68px;
+    border-radius: 28px 0px 28px 0px;
+    border: none;
+    background-color: #fff;
+    color: #0000DE;
+    transition: all 0.7s linear;
+    cursor: pointer;
+}
+.section_4 .btn2:hover{
+    background-color: #0000DE;
+    color: #fff;
+}
+
+.section_4 .img1{
+    width: 433px;
+    height: 213px;
+}
+.section_4 .img2{
+    position: absolute;
+    width: 347px;
+    height: 315px;
+    right: 130px;
+    top: 41px;
+}
+
+/* section_5 */
+
+.section_5{
+    width: 1245px;
+    margin: 94px auto; 
+}
+.section_5 .box{
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+}
+.section_5 .box_control{
+    margin-top: 31px;
+    position: relative;
+    background-color: #F0F4F8;
+    width: 405px;
+    height: 360px;
+    border-radius: 10px;
+}
+.section_5 h6{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: left;
+    color: #79A6C3;   
+    margin-top: 26px;
+    margin-left: 30px;
+
+}
+
+.section_5 h4{
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;     
+}
+.section_5 .bar{
+    display: flex;
+    margin-top: 30px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: #0000DE;     
+}
+.section_5 .bar img{
+    width: 32px;
+    height: 32px;
+    margin-left: 18px;
+}
+
+.section_5 .img_ico{
+    position: absolute;
+    right: 17px;
+    top: 16px;
+}
